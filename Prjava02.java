@@ -17,7 +17,8 @@ public class Prjava02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Creacio d'una branca del projecte prjava02"); 	
+        System.out.println("Creacio d'una branca del projecte prjava02");
+	System.out.println("Afegint més codi des de la branca00 del projecte prjava02");
         try {
             InetAddress adreça = InetAddress.getLocalHost();
             String hostname = adreça.getHostName();
@@ -29,6 +30,6 @@ public class Prjava02 {
         }
         catch (IOException e) {
 		System.out.println("Exception occurred");
-        }  
+        }
     }
 }
